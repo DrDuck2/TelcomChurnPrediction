@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2C2C">
+
+    <ImageView
+        android:id="@+id/dropDownInternetService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewInternetService"
+        app:layout_constraintStart_toEndOf="@+id/textViewInternetService"
+        app:layout_constraintTop_toTopOf="@+id/textViewInternetService"
+        app:srcCompat="@android:drawable/ic_menu_more" />
+
+    <ImageView
+        android:id="@+id/dropDownContract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewContract"
+        app:layout_constraintStart_toEndOf="@+id/textViewContract"
+        app:layout_constraintTop_toTopOf="@+id/textViewContract"
+        app:srcCompat="@android:drawable/ic_menu_more" />
+
+    <TextView
+        android:id="@+id/textViewInternetService"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/singleinputpage_internetService"
+        android:textColor="#EAEAEA"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContract" />
+
+    <Switch
+        android:id="@+id/switchSeniorCitizen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/singleinputpage_switchSeniorCitizen"
+        android:textColor="#EAEAEA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPageInfo" />
+
+    <Switch
+        android:id="@+id/switchPaperlessBilling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/singleinputpage_switchPaperlessBilling"
+        android:textColor="#EAEAEA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPageInfo" />
+
+    <Switch
+        android:id="@+id/switchPhoneService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/singleinputpage_switchPhoneService"
+        android:textColor="#EAEAEA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPageInfo" />
+
+    <Switch
+        android:id="@+id/switchPartner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/singleinputpage_switchPartner"
+        android:textColor="#EAEAEA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPageInfo" />
+
+    <Button
+        android:id="@+id/predictButton"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/ic_launcher_background"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/predictButton"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFFFF"
+        android:textColorHighlight="#E91E63"
+        android:textColorLink="#0022FE"
+        android:textSize="18sp"
+        app:cornerRadius="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#FFFFFF" />
+
+    <Switch
+        android:id="@+id/switchDependents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/singleinputpage_switchDependents"
+        android:textColor="#EAEAEA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPageInfo" />
+
+    <TextView
+        android:id="@+id/textViewPageInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/singleinputpage_pageinformation"
+        android:textColor="#EAEAEA"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:freezesText="false"
+        android:hint="@string/singleinputpage_gender"
+        android:inputType="text"
+        android:textColor="#EAEAEA"
+        android:textColorHint="#A5A5A5"
+        android:textIsSelectable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPageInfo" />
+
+    <EditText
+        android:id="@+id/editTextTenure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/singleinputpage_tenure"
+        android:inputType="text"
+        android:textColor="#EAEAEA"
+        android:textColorHint="#A5A5A5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGender" />
+
+    <EditText
+        android:id="@+id/editTextMonthlyCharges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/singleinputpage_monthlyCharges"
+        android:inputType="text"
+        android:textColor="#EAEAEA"
+        android:textColorHint="#A5A5A5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTenure" />
+
+    <EditText
+        android:id="@+id/editTextTotalCharges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/singleinputpage_totalCharges"
+        android:inputType="text"
+        android:textColor="#EAEAEA"
+        android:textColorHint="#A5A5A5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMonthlyCharges" />
+
+    <TextView
+        android:id="@+id/textViewPaymentMethod"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/singleinputpage_paymentMethod"
+        android:textColor="#EAEAEA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewContract"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/singleinputpage_contract"
+        android:textColor="#EAEAEA"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPaymentMethod" />
+
+    <ImageView
+        android:id="@+id/dropDownPaymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewPaymentMethod"
+        app:layout_constraintStart_toEndOf="@+id/textViewPaymentMethod"
+        app:layout_constraintTop_toTopOf="@+id/textViewPaymentMethod"
+        app:srcCompat="@android:drawable/ic_menu_more" />
+
+    <Switch
+        android:id="@+id/switchMultipleLines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/phonelineservicedependents_multiplelines"
+        android:textColor="#EAEAEA"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPageInfo" />
+
+    <ImageButton
+        android:id="@+id/internetservicedependendsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/dropDownContract"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dropDownContract"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

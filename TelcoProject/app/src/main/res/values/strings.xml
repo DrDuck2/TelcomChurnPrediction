@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TelcoChurnPrediction</string>
+
+
+
+    <string name="app_name_loginpage">CustomerChurnPrediction</string>
+    <string name="loginpage_loginbutton">Login</string>
+    <string name="loginpage_passwordinsert">Password</string>
+    <string name="loginpage_emailinsert">Email</string>
+    <string name="frontImageDescription">Image for the front cover of the application</string>
+
+    <string name="selectionpage_personalinformation">Personal Information</string>
+    <string name="selectionpage_singeinput">Single Input</string>
+    <string name="selectionpage_bulkinput">Bulk Input (.csv)</string>
+
+
+    <string name="submitButton">Submit</string>
+
+    <string name="predictButton">Predict</string>
+
+    <string name="singleinputpage_pageinformation">Enter Customer Information</string>
+
+    <string name="singleinputpage_switchPartner">Partner</string>
+    <string name="singleinputpage_switchDependents">Dependents</string>
+    <string name="singleinputpage_switchPhoneService">Phone Service</string>
+    <string name="singleinputpage_switchPaperlessBilling">Paperless Billing</string>
+    <string name="singleinputpage_switchSeniorCitizen">Senior Citizen</string>
+
+    <string name="singleinputpage_gender">Gender</string>
+    <string name="singleinputpage_tenure">Tenure</string>
+    <string name="singleinputpage_monthlyCharges">Monthly Charges</string>
+    <string name="singleinputpage_totalCharges">Total Charges</string>
+
+    <string name="singleinputpage_paymentMethod">Payment Method</string>
+    <string name="singleinputpage_contract">Contract</string>
+    <string name="singleinputpage_internetService">Internet Service</string>
+
+    <string name="internetservicedependents_onlinesecurity">Online Security</string>
+    <string name="internetservicedependents_onlinebackup">Online Backup</string>
+    <string name="internetservicedependents_deviceProtection">Device Protection</string>
+    <string name="internetservicedependents_techsupport">Tech Support</string>
+    <string name="internetservicedependents_streamingtv">Streaming TV</string>
+    <string name="internetservicedependents_streamingmovies">Streaming Movies</string>
+
+    <string name="phonelineservicedependents_multiplelines">Multiple Lines</string>
+
+    <string name="resultpopup_churn">Churn</string>
+    <string name="resultpopup_probability">Probability</string>
+
+</resources>
